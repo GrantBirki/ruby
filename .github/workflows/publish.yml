@@ -11,6 +11,8 @@ on:
         required: true
         default: '3.3.4'
 
+cache-mode: none
+
 jobs:
   release:
     runs-on: ubuntu-latest

@@ -4,6 +4,8 @@ on:
     branches:
       - master
       - 'ruby_*_*'
+cache-mode: none
+
 jobs:
   hooks:
     name: Post-push hooks
