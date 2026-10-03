@@ -20,6 +20,8 @@ concurrency:
 permissions:
   contents: read
 
+cache-mode: none
+
 jobs:
   rubyspec:
     name: Rubyspec

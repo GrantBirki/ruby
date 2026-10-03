@@ -17,6 +17,8 @@ on:
 # Declare default permissions as read only.
 permissions: read-all
 
+cache-mode: none
+
 jobs:
   analysis:
     name: Scorecard analysis

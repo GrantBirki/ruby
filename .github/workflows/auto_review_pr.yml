@@ -7,6 +7,8 @@ on:
 permissions:
   contents: read
 
+cache-mode: none
+
 jobs:
   auto-review-pr:
     name: Auto Review PR

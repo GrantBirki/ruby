@@ -6,6 +6,8 @@ on:
     workflows: ["WebAssembly"]
     types: [completed]
 
+cache-mode: none
+
 jobs:
   post-summary:
     name: Post Playground link

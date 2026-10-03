@@ -4,6 +4,8 @@ on:
     tags:
       - '*'
 
+cache-mode: none
+
 jobs:
   notify:
     runs-on: ubuntu-latest
